@@ -1,0 +1,86 @@
+nohup: ignoring input
+/home/jovyan/floor/Floor-Overlay/env/lib/python3.10/site-packages/transformers/models/maskformer/feature_extraction_maskformer.py:28: FutureWarning: The class MaskFormerFeatureExtractor is deprecated and will be removed in version 5 of Transformers. Please use MaskFormerImageProcessor instead.
+  warnings.warn(
+/home/jovyan/floor/Floor-Overlay/env/lib/python3.10/site-packages/transformers/utils/deprecation.py:172: FutureWarning: `max_size` is deprecated and removed starting from version 4.27.0 for `MaskFormerFeatureExtractor.__init__`.
+  return func(*args, **kwargs)
+/home/jovyan/floor/Floor-Overlay/env/lib/python3.10/site-packages/transformers/utils/deprecation.py:172: UserWarning: The following named arguments are not valid for `MaskFormerFeatureExtractor.__init__` and were ignored: 'feature_extractor_type'
+  return func(*args, **kwargs)
+Model Successfully Loaded
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.0.187.110:5001
+Press CTRL+C to quit
+ * Restarting with stat
+/home/jovyan/floor/Floor-Overlay/env/lib/python3.10/site-packages/transformers/models/maskformer/feature_extraction_maskformer.py:28: FutureWarning: The class MaskFormerFeatureExtractor is deprecated and will be removed in version 5 of Transformers. Please use MaskFormerImageProcessor instead.
+  warnings.warn(
+/home/jovyan/floor/Floor-Overlay/env/lib/python3.10/site-packages/transformers/utils/deprecation.py:172: FutureWarning: `max_size` is deprecated and removed starting from version 4.27.0 for `MaskFormerFeatureExtractor.__init__`.
+  return func(*args, **kwargs)
+/home/jovyan/floor/Floor-Overlay/env/lib/python3.10/site-packages/transformers/utils/deprecation.py:172: UserWarning: The following named arguments are not valid for `MaskFormerFeatureExtractor.__init__` and were ignored: 'feature_extractor_type'
+  return func(*args, **kwargs)
+ * Debugger is active!
+ * Debugger PIN: 766-219-831
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [09/Jul/2025 12:22:48] "POST /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [09/Jul/2025 12:23:46] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [09/Jul/2025 12:23:47] "POST /overlayFloor HTTP/1.0" 500 -
+127.0.0.1 - - [09/Jul/2025 12:23:49] "POST /overlayFloor HTTP/1.0" 500 -
+127.0.0.1 - - [09/Jul/2025 12:24:01] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [09/Jul/2025 12:24:02] "POST /overlayFloor HTTP/1.0" 500 -
+127.0.0.1 - - [09/Jul/2025 12:26:51] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [09/Jul/2025 12:26:52] "POST /overlayFloor HTTP/1.0" 500 -
+127.0.0.1 - - [09/Jul/2025 12:32:22] "OPTIONS /overlayCarpet HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [09/Jul/2025 12:32:27] "POST /overlayCarpet HTTP/1.0" 200 -
+127.0.0.1 - - [09/Jul/2025 12:36:00] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [09/Jul/2025 12:36:00] "POST /overlayFloor HTTP/1.0" 500 -
+127.0.0.1 - - [09/Jul/2025 12:37:10] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [09/Jul/2025 12:37:11] "POST /overlayFloor HTTP/1.0" 500 -
+127.0.0.1 - - [09/Jul/2025 12:43:01] "POST /overlayFloor HTTP/1.0" 500 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [09/Jul/2025 12:43:40] "POST /overlayFloor HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [09/Jul/2025 12:45:10] "POST /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [09/Jul/2025 12:45:38] "GET /overlayFloor HTTP/1.0" 405 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [09/Jul/2025 12:45:53] "POST /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [09/Jul/2025 12:54:52] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [09/Jul/2025 12:54:53] "POST /overlayFloor HTTP/1.0" 500 -
+127.0.0.1 - - [09/Jul/2025 12:55:10] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [09/Jul/2025 12:55:11] "POST /overlayFloor HTTP/1.0" 500 -
+127.0.0.1 - - [09/Jul/2025 12:55:46] "POST /overlayFloor HTTP/1.0" 500 -
+127.0.0.1 - - [09/Jul/2025 13:04:39] "POST /overlayFloor HTTP/1.0" 500 -
+127.0.0.1 - - [09/Jul/2025 13:08:02] "POST /overlayFloor HTTP/1.0" 500 -
+127.0.0.1 - - [09/Jul/2025 13:12:43] "POST /overlayFloor HTTP/1.0" 500 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [09/Jul/2025 13:13:15] "POST /overlayFloor HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [09/Jul/2025 13:18:11] "POST /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [09/Jul/2025 13:20:24] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [09/Jul/2025 13:20:25] "POST /overlayFloor HTTP/1.0" 500 -
+127.0.0.1 - - [09/Jul/2025 13:28:01] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [09/Jul/2025 13:28:01] "POST /overlayFloor HTTP/1.0" 500 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [09/Jul/2025 13:29:32] "POST /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [09/Jul/2025 13:34:38] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [09/Jul/2025 13:34:39] "POST /overlayFloor HTTP/1.0" 500 -
+127.0.0.1 - - [09/Jul/2025 13:35:33] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [09/Jul/2025 13:35:33] "POST /overlayFloor HTTP/1.0" 500 -
+127.0.0.1 - - [09/Jul/2025 13:39:50] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [09/Jul/2025 13:39:53] "POST /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [09/Jul/2025 13:39:57] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [09/Jul/2025 13:39:59] "POST /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [09/Jul/2025 13:40:25] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [09/Jul/2025 13:40:34] "POST /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [09/Jul/2025 13:41:22] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [09/Jul/2025 13:41:47] "POST /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [09/Jul/2025 13:52:23] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [09/Jul/2025 13:52:26] "POST /overlayFloor HTTP/1.0" 200 -

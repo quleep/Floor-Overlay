@@ -1,0 +1,26 @@
+nohup: ignoring input
+/home/jovyan/floor/Floor-Overlay/env/lib/python3.10/site-packages/transformers/models/maskformer/feature_extraction_maskformer.py:28: FutureWarning: The class MaskFormerFeatureExtractor is deprecated and will be removed in version 5 of Transformers. Please use MaskFormerImageProcessor instead.
+  warnings.warn(
+/home/jovyan/floor/Floor-Overlay/env/lib/python3.10/site-packages/transformers/utils/deprecation.py:172: FutureWarning: `max_size` is deprecated and removed starting from version 4.27.0 for `MaskFormerFeatureExtractor.__init__`.
+  return func(*args, **kwargs)
+/home/jovyan/floor/Floor-Overlay/env/lib/python3.10/site-packages/transformers/utils/deprecation.py:172: UserWarning: The following named arguments are not valid for `MaskFormerFeatureExtractor.__init__` and were ignored: 'feature_extractor_type'
+  return func(*args, **kwargs)
+Model Successfully Loaded
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.0.186.105:5001
+Press CTRL+C to quit
+ * Restarting with stat
+/home/jovyan/floor/Floor-Overlay/env/lib/python3.10/site-packages/transformers/models/maskformer/feature_extraction_maskformer.py:28: FutureWarning: The class MaskFormerFeatureExtractor is deprecated and will be removed in version 5 of Transformers. Please use MaskFormerImageProcessor instead.
+  warnings.warn(
+/home/jovyan/floor/Floor-Overlay/env/lib/python3.10/site-packages/transformers/utils/deprecation.py:172: FutureWarning: `max_size` is deprecated and removed starting from version 4.27.0 for `MaskFormerFeatureExtractor.__init__`.
+  return func(*args, **kwargs)
+/home/jovyan/floor/Floor-Overlay/env/lib/python3.10/site-packages/transformers/utils/deprecation.py:172: UserWarning: The following named arguments are not valid for `MaskFormerFeatureExtractor.__init__` and were ignored: 'feature_extractor_type'
+  return func(*args, **kwargs)
+ * Debugger is active!
+ * Debugger PIN: 143-125-423
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [15/Jul/2025 07:52:34] "POST /overlayFloor HTTP/1.0" 200 -

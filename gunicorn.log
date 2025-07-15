@@ -1,0 +1,15 @@
+nohup: ignoring input
+[2025-07-07 06:00:46 +0000] [17946] [INFO] Starting gunicorn 23.0.0
+[2025-07-07 06:00:46 +0000] [17946] [INFO] Listening at: http://0.0.0.0:5001 (17946)
+[2025-07-07 06:00:46 +0000] [17946] [INFO] Using worker: sync
+[2025-07-07 06:00:46 +0000] [17947] [INFO] Booting worker with pid: 17947
+/home/jovyan/floor/Floor-Overlay/env/lib/python3.10/site-packages/transformers/models/maskformer/feature_extraction_maskformer.py:28: FutureWarning: The class MaskFormerFeatureExtractor is deprecated and will be removed in version 5 of Transformers. Please use MaskFormerImageProcessor instead.
+  warnings.warn(
+/home/jovyan/floor/Floor-Overlay/env/lib/python3.10/site-packages/transformers/utils/deprecation.py:172: FutureWarning: `max_size` is deprecated and removed starting from version 4.27.0 for `MaskFormerFeatureExtractor.__init__`.
+  return func(*args, **kwargs)
+/home/jovyan/floor/Floor-Overlay/env/lib/python3.10/site-packages/transformers/utils/deprecation.py:172: UserWarning: The following named arguments are not valid for `MaskFormerFeatureExtractor.__init__` and were ignored: 'feature_extractor_type'
+  return func(*args, **kwargs)
+`label_ids_to_fuse` unset. No instance will be fused.
+`label_ids_to_fuse` unset. No instance will be fused.
+`label_ids_to_fuse` unset. No instance will be fused.
+`label_ids_to_fuse` unset. No instance will be fused.

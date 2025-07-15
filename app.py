@@ -4,6 +4,7 @@ import base64
 import uuid
 import numpy as np
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 
 # External imports from your modules
 from overlay import overlay_carpet_trapezoid, overlay_carpet_ellipse
@@ -12,7 +13,7 @@ from carpet_working import overlay_texture_on_floor
 # from floor_overlay import overlay
 
 app = Flask(__name__)
-
+CORS(app)
 # Create necessary directories
 for folder in ["inputRoom", "inputCarpet", "inputTile", "mask_out", "final_out", "temporary"]:
     os.makedirs(folder, exist_ok=True)
@@ -141,4 +142,4 @@ def overlay_floor_model():
 # ───────────────────────────────────────────────────────────── #
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, host = "0.0.0.0", port = 5001)
