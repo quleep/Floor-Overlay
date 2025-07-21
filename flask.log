@@ -11,7 +11,7 @@ Model Successfully Loaded
 WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5001
- * Running on http://10.0.186.105:5001
+ * Running on http://10.0.186.225:5001
 Press CTRL+C to quit
  * Restarting with stat
 /home/jovyan/floor/Floor-Overlay/env/lib/python3.10/site-packages/transformers/models/maskformer/feature_extraction_maskformer.py:28: FutureWarning: The class MaskFormerFeatureExtractor is deprecated and will be removed in version 5 of Transformers. Please use MaskFormerImageProcessor instead.
@@ -21,6 +21,102 @@ Press CTRL+C to quit
 /home/jovyan/floor/Floor-Overlay/env/lib/python3.10/site-packages/transformers/utils/deprecation.py:172: UserWarning: The following named arguments are not valid for `MaskFormerFeatureExtractor.__init__` and were ignored: 'feature_extractor_type'
   return func(*args, **kwargs)
  * Debugger is active!
- * Debugger PIN: 143-125-423
+ * Debugger PIN: 792-067-113
 `label_ids_to_fuse` unset. No instance will be fused.
-127.0.0.1 - - [15/Jul/2025 07:52:34] "POST /overlayFloor HTTP/1.0" 200 -
+10.0.171.22 - - [16/Jul/2025 05:34:22] "POST /overlayFloor HTTP/1.1" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [16/Jul/2025 05:42:05] "POST /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jul/2025 05:45:17] "POST /overlayFloor HTTP/1.0" 500 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [16/Jul/2025 05:49:03] "POST /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jul/2025 05:49:48] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [16/Jul/2025 05:49:54] "POST /overlayFloor HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [16/Jul/2025 05:56:33] "POST /overlayFloor HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [16/Jul/2025 05:58:04] "POST /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jul/2025 06:21:53] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [16/Jul/2025 06:21:54] "POST /overlayFloor HTTP/1.0" 200 -
+10.0.171.22 - - [16/Jul/2025 06:36:22] code 400, message Bad request syntax ('\x16\x03\x01\x00\x8b\x01\x00\x00\x87\x03\x03¾sª')
+10.0.171.22 - - [16/Jul/2025 06:36:22] "\x16\x03\x01\x00\x8b\x01\x00\x00\x87\x03\x03¾sª" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [16/Jul/2025 06:49:02] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [16/Jul/2025 06:49:19] "POST /overlayFloor HTTP/1.0" 200 -
+10.0.40.183 - - [16/Jul/2025 06:53:33] code 400, message Bad request version ('À\x14À')
+10.0.40.183 - - [16/Jul/2025 06:53:33] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03¾2Ië\\CÆáe\x00rºM\x1b\x9dm}g4ÞÏ¼GÔ-ÍV D\x8eÁî \x01¨Þú¤\x0cKêqô»B½\x93Ì\x1e(\x94ª[?"\x86â\x8bµÒiô¼27\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+10.0.40.183 - - [16/Jul/2025 06:54:16] code 400, message Bad request syntax ('ZG\x00\x00\x00\x05\x00+\x0e\x01\x00')
+10.0.40.183 - - [16/Jul/2025 06:54:16] "ZG\x00\x00\x00\x05\x00+\x0e\x01\x00" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [16/Jul/2025 06:58:19] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [16/Jul/2025 06:58:36] "POST /overlayFloor HTTP/1.0" 200 -
+10.0.171.22 - - [16/Jul/2025 07:13:19] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [16/Jul/2025 07:14:22] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [16/Jul/2025 07:14:39] "POST /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jul/2025 07:44:10] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [16/Jul/2025 07:44:26] "POST /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jul/2025 07:50:04] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [16/Jul/2025 07:50:21] "POST /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jul/2025 07:58:40] "OPTIONS /overlayCarpet HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [16/Jul/2025 07:58:49] "POST /overlayCarpet HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jul/2025 08:00:04] "OPTIONS /overlayCarpet HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [16/Jul/2025 08:00:14] "POST /overlayCarpet HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jul/2025 08:20:52] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [16/Jul/2025 08:20:58] "POST /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jul/2025 08:33:13] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [16/Jul/2025 08:33:18] "POST /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jul/2025 08:33:57] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [16/Jul/2025 08:34:03] "POST /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jul/2025 08:35:47] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [16/Jul/2025 08:36:02] "POST /overlayFloor HTTP/1.0" 200 -
+10.0.171.22 - - [16/Jul/2025 09:21:55] code 400, message Bad request version ('À\x14À')
+10.0.171.22 - - [16/Jul/2025 09:21:55] "\x16\x03\x01\x00\x8b\x01\x00\x00\x87\x03\x03Á.S[º\x10_ã\x919S\x85­T\x13ZIoÉ\x135*ë°õ·6ô\x85QÀE\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [16/Jul/2025 09:35:50] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [16/Jul/2025 09:35:56] "POST /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jul/2025 09:47:52] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [16/Jul/2025 09:47:58] "POST /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jul/2025 10:02:35] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [16/Jul/2025 10:02:40] "POST /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jul/2025 10:02:45] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [16/Jul/2025 10:02:51] "POST /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jul/2025 10:04:49] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [16/Jul/2025 10:04:55] "POST /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jul/2025 10:09:59] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [16/Jul/2025 10:10:05] "POST /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jul/2025 10:30:57] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [16/Jul/2025 10:31:02] "POST /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jul/2025 10:46:11] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [16/Jul/2025 10:46:30] "POST /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jul/2025 11:10:17] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [16/Jul/2025 11:10:37] "POST /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jul/2025 12:02:00] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [16/Jul/2025 12:02:19] "POST /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jul/2025 12:02:30] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [16/Jul/2025 12:02:48] "POST /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [16/Jul/2025 12:09:11] "OPTIONS /overlayCarpet HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [16/Jul/2025 12:09:19] "POST /overlayCarpet HTTP/1.0" 200 -

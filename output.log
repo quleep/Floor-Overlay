@@ -10,8 +10,8 @@ Model Successfully Loaded
  * Debug mode: on
 WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
  * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://10.0.187.204:5000
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.0.49.216:5001
 Press CTRL+C to quit
  * Restarting with stat
 /home/jovyan/floor/Floor-Overlay/env/lib/python3.10/site-packages/transformers/models/maskformer/feature_extraction_maskformer.py:28: FutureWarning: The class MaskFormerFeatureExtractor is deprecated and will be removed in version 5 of Transformers. Please use MaskFormerImageProcessor instead.
@@ -21,45 +21,76 @@ Press CTRL+C to quit
 /home/jovyan/floor/Floor-Overlay/env/lib/python3.10/site-packages/transformers/utils/deprecation.py:172: UserWarning: The following named arguments are not valid for `MaskFormerFeatureExtractor.__init__` and were ignored: 'feature_extractor_type'
   return func(*args, **kwargs)
  * Debugger is active!
- * Debugger PIN: 342-491-940
+ * Debugger PIN: 145-932-366
+127.0.0.1 - - [17/Jul/2025 05:46:40] "OPTIONS /overlayFloor HTTP/1.0" 200 -
 `label_ids_to_fuse` unset. No instance will be fused.
-10.0.171.22 - - [04/Jul/2025 05:53:06] "POST /overlayFloor HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 05:46:58] "POST /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [17/Jul/2025 05:47:29] "OPTIONS /overlayFloor HTTP/1.0" 200 -
 `label_ids_to_fuse` unset. No instance will be fused.
-10.0.171.22 - - [04/Jul/2025 05:54:00] "POST /overlayFloor HTTP/1.1" 200 -
-10.0.171.22 - - [04/Jul/2025 06:07:03] "GET /overlayFloor HTTP/1.1" 405 -
-10.0.171.22 - - [04/Jul/2025 06:07:03] "GET /overlayFloor HTTP/1.1" 405 -
-10.0.171.22 - - [04/Jul/2025 06:07:16] "GET /overlayFloor HTTP/1.1" 405 -
-10.0.171.22 - - [04/Jul/2025 06:07:50] "GET /overlayFloor HTTP/1.1" 405 -
-10.0.171.22 - - [04/Jul/2025 06:07:51] "GET /favicon.ico HTTP/1.1" 404 -
-10.0.171.22 - - [04/Jul/2025 06:09:41] code 400, message Bad request version ("\x89ØUt\x9fH\x0f6³Y'SSÅ<L¸²®H±G¤+\x05di_")
-10.0.171.22 - - [04/Jul/2025 06:09:41] "\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03Ð0hâÛ½µH\x18SoE=B´¨¦Ö\x13\x1aò-ìQ&tb\x1e\x18\x14^P \x9aô\x01\x86/\x84Gê(õhô-ÜGÑ­\x98\x9e?[\x03.t%laé}Û&.\x00 úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93zz\x00\x00DÍ\x00\x05\x00\x03\x02h2\x003\x04ï\x04íªª\x00\x01\x00\x11ì\x04ÀuZ\x04Ô(\x9bÆX­\x08TA\x87ä\x03\x89\x92\x8cSè\x95Ó \x89ØUt\x9fH\x0f6³Y'SSÅ<L¸²®H±G¤+\x05di_" HTTPStatus.BAD_REQUEST -
-10.0.171.22 - - [04/Jul/2025 06:09:42] code 400, message Bad request version ('M,ºÛâ')
-10.0.171.22 - - [04/Jul/2025 06:09:42] "\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03Ó\x1e\x9aø{\x06w¥$kç¬aöVD\x9c>¬VÙ ÎÒªr\x1fÏ#\x95)½ \x96\x18¬7Ê\x12>ö3\x00ºA,,\x1fM,ºÛâ" HTTPStatus.BAD_REQUEST -
-10.0.171.22 - - [04/Jul/2025 06:09:50] code 400, message Bad request version ('\x12ÁªÎ\x07aõ,<¡8TÈ\x95\x92\x17Í\x99ù"\'\x00ð>êZe\x82\x108\x0f¨þ-ò')
-10.0.171.22 - - [04/Jul/2025 06:09:50] "\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03irfììMYÓåÿ¾^P\x16æ\x0eý\x04mh[dc(1Ø°Ü\x0c\x9bÇ~ ä\x8f5öC\x86\x00à\x1b>\x9cÏâX»µÓ£k\x89[S÷\x89­§(\x85(ºË¡\x00 \x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93ÚÚ\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00#\x00\x00þ\x0d\x01\x1a\x00\x00\x01\x00\x01è\x00 ¹\x1bp\x00w1zê¡¶\x0c\x12ÁªÎ\x07aõ,<¡8TÈ\x95\x92\x17Í\x99ù"'\x00ð>êZe\x82\x108\x0f¨þ-ò" HTTPStatus.BAD_REQUEST -
-10.0.171.22 - - [04/Jul/2025 06:09:50] code 400, message Bad request version ('þ\x92¦ÀÚ#N\x83')
-10.0.171.22 - - [04/Jul/2025 06:09:50] "\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03~ýóØ[5äëC\x92*'4Uer«\x8açÝ"\x9f$æx/\x88\x02NÌK¾ \x0dÜN¼5Ê£¬­inÍ¾ÂËP\x97\x1boÙ$Ôc\x0e«2]\x07²\x03ë¯\x00 \x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93\x8a\x8a\x00\x00\x003\x04ï\x04í\x9a\x9a\x00\x01\x00\x11ì\x04ÀµH2U¡\x91ò\x04¢ \x0b\x95¨\x92\x08NÜ\x9c^zp.v¦Ô\x8c´\x15¨#_\x96º²ò(F\x87±pÙF¸¶\x90*\x81l²õ¨+<\x8diì[åÐ~ov2\x1cw\x1eÎ\x11\x90ÔðlhitF\x07Ä\x82É\x8eÆ¡\x11Í<¨áÔnj\x0cl\x82\x929Ï\x92\x85\x80\x91\x9f\x9bi\x0c\x9bÙ\x98&\x1bdãË%\x06c\x9d\x7fSs\x14\x19\x81³áË\x1eE[q  \x86H\x91\x05L¨È¥Î\x97üQ»\x04³\x8eW\x13\x05V\x82 [\x80=ñ8íù½\x9føwïh~N°sýÊ80P.ï\x90Q\x0d\x01ÍhëÎ5\x1c\x1cÅ\x8a¬!\x1a\x95A\x10p]¬\x89è\x870SQ]èÈB4\x93v¬AX\x08±\x1cþ\x92¦ÀÚ#N\x83" HTTPStatus.BAD_REQUEST -
-10.0.171.22 - - [04/Jul/2025 06:26:02] code 400, message Bad request version ('\x10YL\x87')
-10.0.171.22 - - [04/Jul/2025 06:26:02] "\x16\x03\x01\x00u\x01\x00\x00q\x03\x03\x0dÉ.Ã\x9cù\x8e\x85\x85\x10YL\x87 " HTTPStatus.BAD_REQUEST -
-10.0.171.22 - - [04/Jul/2025 06:26:02] code 400, message Bad request version ('À\x14À')
-10.0.171.22 - - [04/Jul/2025 06:26:02] "\x16\x03\x01\x00u\x01\x00\x00q\x03\x03)å\x95\x90¯É4úü\x18u\x17Õ\x8f\x83\\º\\åd\x81¼\x93´Ú¨@Ýììü\x1c\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
-10.0.171.22 - - [04/Jul/2025 06:26:03] code 400, message Bad request version ('À\x14À')
-10.0.171.22 - - [04/Jul/2025 06:26:03] "\x16\x03\x01\x00u\x01\x00\x00q\x03\x03u¹b\x14Ä\x01±¢rêQ\x84ÚFí0UhmòÐvÌñw5%M»'\x1d\x0e\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [17/Jul/2025 05:47:45] "POST /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [17/Jul/2025 05:48:26] "OPTIONS /overlayFloor HTTP/1.0" 200 -
 `label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [17/Jul/2025 05:48:41] "POST /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [17/Jul/2025 05:49:39] "OPTIONS /overlayFloor HTTP/1.0" 200 -
 `label_ids_to_fuse` unset. No instance will be fused.
-[ WARN:26@2751.493] global loadsave.cpp:268 findDecoder imread_('../floorOverlay/temporary/warped_carpet_image.jpg'): can't open/read file: check file path/integrity
-10.0.171.22 - - [04/Jul/2025 06:38:43] "POST /overlayCarpet HTTP/1.1" 500 -
-10.0.171.22 - - [04/Jul/2025 06:55:55] "GET /overlayCarpet HTTP/1.1" 405 -
-10.0.171.22 - - [04/Jul/2025 06:56:01] "GET /overlayCarpet HTTP/1.1" 405 -
-10.0.171.22 - - [04/Jul/2025 07:07:51] "GET /overlayFloor HTTP/1.1" 405 -
+127.0.0.1 - - [17/Jul/2025 05:49:53] "POST /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [17/Jul/2025 05:51:03] "OPTIONS /overlayFloor HTTP/1.0" 200 -
 `label_ids_to_fuse` unset. No instance will be fused.
-10.0.171.22 - - [04/Jul/2025 07:24:20] "POST /overlayFloor HTTP/1.1" 200 -
-10.0.171.22 - - [04/Jul/2025 08:03:46] "POST /overlayCarpet HTTP/1.1" 500 -
-10.0.171.22 - - [04/Jul/2025 08:04:52] code 400, message Bad request version ("¯nãY»bhlÿ(=':©\x82ÙoÈ¢×\x93\x98´ï\x80å¹\x90\x00(À")
-10.0.171.22 - - [04/Jul/2025 08:04:52] "\x16\x03\x02\x01o\x01\x00\x01k\x03\x02RHÅ\x1a#÷:Nßâ´\x82/ÿ\x09T\x9f§Äy°hÆ\x13\x8c¤\x1c="á\x1a\x98 \x84´,\x85¯nãY»bhlÿ(=':©\x82ÙoÈ¢×\x93\x98´ï\x80å¹\x90\x00(À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [17/Jul/2025 05:51:19] "POST /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [17/Jul/2025 05:51:47] "OPTIONS /overlayFloor HTTP/1.0" 200 -
 `label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [17/Jul/2025 05:52:02] "POST /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [17/Jul/2025 06:17:44] "OPTIONS /overlayFloor HTTP/1.0" 200 -
 `label_ids_to_fuse` unset. No instance will be fused.
-10.0.171.22 - - [04/Jul/2025 08:05:33] "POST /overlayCarpet HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 06:18:00] "POST /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [17/Jul/2025 06:34:37] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [17/Jul/2025 06:34:57] "POST /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [17/Jul/2025 07:13:25] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [17/Jul/2025 07:13:46] "POST /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [17/Jul/2025 07:14:06] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [17/Jul/2025 07:14:24] "POST /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [17/Jul/2025 07:18:54] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [17/Jul/2025 07:19:12] "POST /overlayFloor HTTP/1.0" 200 -
+127.0.0.1 - - [17/Jul/2025 07:26:04] "OPTIONS /overlayCarpet HTTP/1.0" 200 -
 `label_ids_to_fuse` unset. No instance will be fused.
 `label_ids_to_fuse` unset. No instance will be fused.
-10.0.171.22 - - [04/Jul/2025 08:08:27] "POST /overlayCarpet HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 07:26:13] "POST /overlayCarpet HTTP/1.0" 200 -
+127.0.0.1 - - [17/Jul/2025 07:34:19] "OPTIONS /overlayFloor HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [17/Jul/2025 07:34:38] "POST /overlayFloor HTTP/1.0" 200 -
+10.0.40.183 - - [17/Jul/2025 07:36:24] code 400, message Bad request syntax ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03o12¬´\x96.Î\x8a\x10nCÖ')
+10.0.40.183 - - [17/Jul/2025 07:36:24] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03o12¬´\x96.Î\x8a\x10nCÖ" HTTPStatus.BAD_REQUEST -
+10.0.40.183 - - [17/Jul/2025 07:36:29] "GET / HTTP/1.1" 404 -
+10.0.40.183 - - [17/Jul/2025 07:36:41] "GET / HTTP/1.1" 404 -
+10.0.40.183 - - [17/Jul/2025 07:36:42] code 505, message Invalid HTTP version (2.0)
+10.0.40.183 - - [17/Jul/2025 07:36:42] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+10.0.40.183 - - [17/Jul/2025 07:36:46] "GET /favicon.ico HTTP/1.1" 404 -
+10.0.40.183 - - [17/Jul/2025 07:36:47] code 505, message Invalid HTTP version (2.0)
+10.0.40.183 - - [17/Jul/2025 07:36:47] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+10.0.40.183 - - [17/Jul/2025 07:36:54] code 400, message Bad request version ('À\x14À')
+10.0.40.183 - - [17/Jul/2025 07:36:54] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x1dªÈ¾LR7rÓÛì\x8a\x87\x0d}\x06øW\x0c­æíúXmù·Tm\x82´\x05 \x12\x8aãr\x1d¶#'&Jýv\x1bËj`ä±ÿ«\x11<¢\x8a\x00\x14\x1aÖHÆR\x94\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+10.0.40.183 - - [17/Jul/2025 07:36:58] "GET /sitemap.xml HTTP/1.1" 404 -
+127.0.0.1 - - [17/Jul/2025 08:07:09] "OPTIONS /overlayCarpet HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [17/Jul/2025 08:07:19] "POST /overlayCarpet HTTP/1.0" 200 -
+127.0.0.1 - - [17/Jul/2025 08:07:31] "OPTIONS /overlayCarpet HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [17/Jul/2025 08:07:41] "POST /overlayCarpet HTTP/1.0" 200 -
+127.0.0.1 - - [17/Jul/2025 08:08:21] "OPTIONS /overlayCarpet HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [17/Jul/2025 08:08:30] "POST /overlayCarpet HTTP/1.0" 200 -
+127.0.0.1 - - [17/Jul/2025 10:51:07] "OPTIONS /overlayCarpet HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [17/Jul/2025 10:51:16] "POST /overlayCarpet HTTP/1.0" 200 -
+127.0.0.1 - - [17/Jul/2025 10:55:25] "OPTIONS /overlayCarpet HTTP/1.0" 200 -
+`label_ids_to_fuse` unset. No instance will be fused.
+`label_ids_to_fuse` unset. No instance will be fused.
+127.0.0.1 - - [17/Jul/2025 10:55:34] "POST /overlayCarpet HTTP/1.0" 200 -
