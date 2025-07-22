@@ -111,9 +111,9 @@ def infer(imagepath,designimgpath,outputpath,mode = 3):
     return 1
 
 def main():
-    imagepath = "../floorOverlay/inputRoom/room_01a80ef6-b94e-4f2d-8169-84f1b0ec3896.jpg"
+    imagepath = "../Floor-Overlay/inputRoom/room_01a80ef6-b94e-4f2d-8169-84f1b0ec3896.jpg"
     designimgpath = 0
-    outputpath = "../floorOverlay/mask_out/mask_01a80ef6-b94e-4f2d-8169-84f1b0ec3896.jpg"
+    outputpath = "../Floor-Overlay/mask_out/mask_01a80ef6-b94e-4f2d-8169-84f1b0ec3896.jpg"
     
     load_model()
     infer(imagepath, designimgpath, outputpath)
