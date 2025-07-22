@@ -11,7 +11,7 @@ Model Successfully Loaded
 WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5001
- * Running on http://10.0.186.225:5001
+ * Running on http://10.0.129.236:5001
 Press CTRL+C to quit
  * Restarting with stat
 /home/jovyan/floor/Floor-Overlay/env/lib/python3.10/site-packages/transformers/models/maskformer/feature_extraction_maskformer.py:28: FutureWarning: The class MaskFormerFeatureExtractor is deprecated and will be removed in version 5 of Transformers. Please use MaskFormerImageProcessor instead.
@@ -21,102 +21,30 @@ Press CTRL+C to quit
 /home/jovyan/floor/Floor-Overlay/env/lib/python3.10/site-packages/transformers/utils/deprecation.py:172: UserWarning: The following named arguments are not valid for `MaskFormerFeatureExtractor.__init__` and were ignored: 'feature_extractor_type'
   return func(*args, **kwargs)
  * Debugger is active!
- * Debugger PIN: 792-067-113
+ * Debugger PIN: 481-364-875
 `label_ids_to_fuse` unset. No instance will be fused.
-10.0.171.22 - - [16/Jul/2025 05:34:22] "POST /overlayFloor HTTP/1.1" 200 -
-`label_ids_to_fuse` unset. No instance will be fused.
-127.0.0.1 - - [16/Jul/2025 05:42:05] "POST /overlayFloor HTTP/1.0" 200 -
-127.0.0.1 - - [16/Jul/2025 05:45:17] "POST /overlayFloor HTTP/1.0" 500 -
-`label_ids_to_fuse` unset. No instance will be fused.
-127.0.0.1 - - [16/Jul/2025 05:49:03] "POST /overlayFloor HTTP/1.0" 200 -
-127.0.0.1 - - [16/Jul/2025 05:49:48] "OPTIONS /overlayFloor HTTP/1.0" 200 -
-`label_ids_to_fuse` unset. No instance will be fused.
-127.0.0.1 - - [16/Jul/2025 05:49:54] "POST /overlayFloor HTTP/1.0" 200 -
-`label_ids_to_fuse` unset. No instance will be fused.
-127.0.0.1 - - [16/Jul/2025 05:56:33] "POST /overlayFloor HTTP/1.0" 200 -
-`label_ids_to_fuse` unset. No instance will be fused.
-127.0.0.1 - - [16/Jul/2025 05:58:04] "POST /overlayFloor HTTP/1.0" 200 -
-127.0.0.1 - - [16/Jul/2025 06:21:53] "OPTIONS /overlayFloor HTTP/1.0" 200 -
-`label_ids_to_fuse` unset. No instance will be fused.
-127.0.0.1 - - [16/Jul/2025 06:21:54] "POST /overlayFloor HTTP/1.0" 200 -
-10.0.171.22 - - [16/Jul/2025 06:36:22] code 400, message Bad request syntax ('\x16\x03\x01\x00\x8b\x01\x00\x00\x87\x03\x03¾sª')
-10.0.171.22 - - [16/Jul/2025 06:36:22] "\x16\x03\x01\x00\x8b\x01\x00\x00\x87\x03\x03¾sª" HTTPStatus.BAD_REQUEST -
-127.0.0.1 - - [16/Jul/2025 06:49:02] "OPTIONS /overlayFloor HTTP/1.0" 200 -
-`label_ids_to_fuse` unset. No instance will be fused.
-127.0.0.1 - - [16/Jul/2025 06:49:19] "POST /overlayFloor HTTP/1.0" 200 -
-10.0.40.183 - - [16/Jul/2025 06:53:33] code 400, message Bad request version ('À\x14À')
-10.0.40.183 - - [16/Jul/2025 06:53:33] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03¾2Ië\\CÆáe\x00rºM\x1b\x9dm}g4ÞÏ¼GÔ-ÍV D\x8eÁî \x01¨Þú¤\x0cKêqô»B½\x93Ì\x1e(\x94ª[?"\x86â\x8bµÒiô¼27\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
-10.0.40.183 - - [16/Jul/2025 06:54:16] code 400, message Bad request syntax ('ZG\x00\x00\x00\x05\x00+\x0e\x01\x00')
-10.0.40.183 - - [16/Jul/2025 06:54:16] "ZG\x00\x00\x00\x05\x00+\x0e\x01\x00" HTTPStatus.BAD_REQUEST -
-127.0.0.1 - - [16/Jul/2025 06:58:19] "OPTIONS /overlayFloor HTTP/1.0" 200 -
-`label_ids_to_fuse` unset. No instance will be fused.
-127.0.0.1 - - [16/Jul/2025 06:58:36] "POST /overlayFloor HTTP/1.0" 200 -
-10.0.171.22 - - [16/Jul/2025 07:13:19] "GET / HTTP/1.1" 404 -
-127.0.0.1 - - [16/Jul/2025 07:14:22] "OPTIONS /overlayFloor HTTP/1.0" 200 -
-`label_ids_to_fuse` unset. No instance will be fused.
-127.0.0.1 - - [16/Jul/2025 07:14:39] "POST /overlayFloor HTTP/1.0" 200 -
-127.0.0.1 - - [16/Jul/2025 07:44:10] "OPTIONS /overlayFloor HTTP/1.0" 200 -
-`label_ids_to_fuse` unset. No instance will be fused.
-127.0.0.1 - - [16/Jul/2025 07:44:26] "POST /overlayFloor HTTP/1.0" 200 -
-127.0.0.1 - - [16/Jul/2025 07:50:04] "OPTIONS /overlayFloor HTTP/1.0" 200 -
-`label_ids_to_fuse` unset. No instance will be fused.
-127.0.0.1 - - [16/Jul/2025 07:50:21] "POST /overlayFloor HTTP/1.0" 200 -
-127.0.0.1 - - [16/Jul/2025 07:58:40] "OPTIONS /overlayCarpet HTTP/1.0" 200 -
-`label_ids_to_fuse` unset. No instance will be fused.
-`label_ids_to_fuse` unset. No instance will be fused.
-127.0.0.1 - - [16/Jul/2025 07:58:49] "POST /overlayCarpet HTTP/1.0" 200 -
-127.0.0.1 - - [16/Jul/2025 08:00:04] "OPTIONS /overlayCarpet HTTP/1.0" 200 -
-`label_ids_to_fuse` unset. No instance will be fused.
-`label_ids_to_fuse` unset. No instance will be fused.
-127.0.0.1 - - [16/Jul/2025 08:00:14] "POST /overlayCarpet HTTP/1.0" 200 -
-127.0.0.1 - - [16/Jul/2025 08:20:52] "OPTIONS /overlayFloor HTTP/1.0" 200 -
-`label_ids_to_fuse` unset. No instance will be fused.
-127.0.0.1 - - [16/Jul/2025 08:20:58] "POST /overlayFloor HTTP/1.0" 200 -
-127.0.0.1 - - [16/Jul/2025 08:33:13] "OPTIONS /overlayFloor HTTP/1.0" 200 -
-`label_ids_to_fuse` unset. No instance will be fused.
-127.0.0.1 - - [16/Jul/2025 08:33:18] "POST /overlayFloor HTTP/1.0" 200 -
-127.0.0.1 - - [16/Jul/2025 08:33:57] "OPTIONS /overlayFloor HTTP/1.0" 200 -
-`label_ids_to_fuse` unset. No instance will be fused.
-127.0.0.1 - - [16/Jul/2025 08:34:03] "POST /overlayFloor HTTP/1.0" 200 -
-127.0.0.1 - - [16/Jul/2025 08:35:47] "OPTIONS /overlayFloor HTTP/1.0" 200 -
-`label_ids_to_fuse` unset. No instance will be fused.
-127.0.0.1 - - [16/Jul/2025 08:36:02] "POST /overlayFloor HTTP/1.0" 200 -
-10.0.171.22 - - [16/Jul/2025 09:21:55] code 400, message Bad request version ('À\x14À')
-10.0.171.22 - - [16/Jul/2025 09:21:55] "\x16\x03\x01\x00\x8b\x01\x00\x00\x87\x03\x03Á.S[º\x10_ã\x919S\x85­T\x13ZIoÉ\x135*ë°õ·6ô\x85QÀE\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
-127.0.0.1 - - [16/Jul/2025 09:35:50] "OPTIONS /overlayFloor HTTP/1.0" 200 -
-`label_ids_to_fuse` unset. No instance will be fused.
-127.0.0.1 - - [16/Jul/2025 09:35:56] "POST /overlayFloor HTTP/1.0" 200 -
-127.0.0.1 - - [16/Jul/2025 09:47:52] "OPTIONS /overlayFloor HTTP/1.0" 200 -
-`label_ids_to_fuse` unset. No instance will be fused.
-127.0.0.1 - - [16/Jul/2025 09:47:58] "POST /overlayFloor HTTP/1.0" 200 -
-127.0.0.1 - - [16/Jul/2025 10:02:35] "OPTIONS /overlayFloor HTTP/1.0" 200 -
-`label_ids_to_fuse` unset. No instance will be fused.
-127.0.0.1 - - [16/Jul/2025 10:02:40] "POST /overlayFloor HTTP/1.0" 200 -
-127.0.0.1 - - [16/Jul/2025 10:02:45] "OPTIONS /overlayFloor HTTP/1.0" 200 -
-`label_ids_to_fuse` unset. No instance will be fused.
-127.0.0.1 - - [16/Jul/2025 10:02:51] "POST /overlayFloor HTTP/1.0" 200 -
-127.0.0.1 - - [16/Jul/2025 10:04:49] "OPTIONS /overlayFloor HTTP/1.0" 200 -
-`label_ids_to_fuse` unset. No instance will be fused.
-127.0.0.1 - - [16/Jul/2025 10:04:55] "POST /overlayFloor HTTP/1.0" 200 -
-127.0.0.1 - - [16/Jul/2025 10:09:59] "OPTIONS /overlayFloor HTTP/1.0" 200 -
-`label_ids_to_fuse` unset. No instance will be fused.
-127.0.0.1 - - [16/Jul/2025 10:10:05] "POST /overlayFloor HTTP/1.0" 200 -
-127.0.0.1 - - [16/Jul/2025 10:30:57] "OPTIONS /overlayFloor HTTP/1.0" 200 -
-`label_ids_to_fuse` unset. No instance will be fused.
-127.0.0.1 - - [16/Jul/2025 10:31:02] "POST /overlayFloor HTTP/1.0" 200 -
-127.0.0.1 - - [16/Jul/2025 10:46:11] "OPTIONS /overlayFloor HTTP/1.0" 200 -
-`label_ids_to_fuse` unset. No instance will be fused.
-127.0.0.1 - - [16/Jul/2025 10:46:30] "POST /overlayFloor HTTP/1.0" 200 -
-127.0.0.1 - - [16/Jul/2025 11:10:17] "OPTIONS /overlayFloor HTTP/1.0" 200 -
-`label_ids_to_fuse` unset. No instance will be fused.
-127.0.0.1 - - [16/Jul/2025 11:10:37] "POST /overlayFloor HTTP/1.0" 200 -
-127.0.0.1 - - [16/Jul/2025 12:02:00] "OPTIONS /overlayFloor HTTP/1.0" 200 -
-`label_ids_to_fuse` unset. No instance will be fused.
-127.0.0.1 - - [16/Jul/2025 12:02:19] "POST /overlayFloor HTTP/1.0" 200 -
-127.0.0.1 - - [16/Jul/2025 12:02:30] "OPTIONS /overlayFloor HTTP/1.0" 200 -
-`label_ids_to_fuse` unset. No instance will be fused.
-127.0.0.1 - - [16/Jul/2025 12:02:48] "POST /overlayFloor HTTP/1.0" 200 -
-127.0.0.1 - - [16/Jul/2025 12:09:11] "OPTIONS /overlayCarpet HTTP/1.0" 200 -
-`label_ids_to_fuse` unset. No instance will be fused.
-`label_ids_to_fuse` unset. No instance will be fused.
-127.0.0.1 - - [16/Jul/2025 12:09:19] "POST /overlayCarpet HTTP/1.0" 200 -
+127.0.0.1 - - [22/Jul/2025 15:55:37] "POST /overlayCarpet HTTP/1.0" 200 -
+ * Detected change in '/home/jovyan/floor/Floor-Overlay/app.py', reloading
+Model Successfully Loaded
+015 Preparing elliptical carpet for transparency...
+016 Circle-cropped image saved as JPG to ../Floor-Overlay/temporary/carpet_circle.jpg
+016 Center of the ellipse: (112, 111)
+016 Horizontally-stretched 3D perspective carpet saved to ../Floor-Overlay/temporary/carpet_ellipse.jpg
+Inference done!
+8519680
+011 Inference completed successfully. Proceeding with texture application...
+013 Marked image saved at: ../Floor-Overlay/temporary/marked_masked_image.jpg
+014 Black image saved as ../Floor-Overlay/temporary/black_blank_image.jpg with dimensions 1599x899
+014 Scaling carpet with dimensions: 8.0ft x 6.0ft
+014 Resized image saved as ../Floor-Overlay/temporary/scaled_carpet_image.jpg with dimensions 299x299
+014 Image saved as ../Floor-Overlay/temporary/overlayed_carpet.jpg
+012 Binary carpet mask saved at: ../Floor-Overlay/temporary/carpet_binary_mask.jpg
+015 Applying transparency to the generated 'ellipse' carpet on black background...
+015 Final transparent image saved to: ../Floor-Overlay/final_out/transparent_carpet_e_room_803065cb-03f8-4eab-9275-34c65c875862.png
+ * Restarting with stat
+/home/jovyan/floor/Floor-Overlay/env/lib/python3.10/site-packages/transformers/models/maskformer/feature_extraction_maskformer.py:28: FutureWarning: The class MaskFormerFeatureExtractor is deprecated and will be removed in version 5 of Transformers. Please use MaskFormerImageProcessor instead.
+  warnings.warn(
+/home/jovyan/floor/Floor-Overlay/env/lib/python3.10/site-packages/transformers/utils/deprecation.py:172: FutureWarning: `max_size` is deprecated and removed starting from version 4.27.0 for `MaskFormerFeatureExtractor.__init__`.
+  return func(*args, **kwargs)
+/home/jovyan/floor/Floor-Overlay/env/lib/python3.10/site-packages/transformers/utils/deprecation.py:172: UserWarning: The following named arguments are not valid for `MaskFormerFeatureExtractor.__init__` and were ignored: 'feature_extractor_type'
+  return func(*args, **kwargs)
