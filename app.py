@@ -29,7 +29,7 @@ def decode_base64_to_image(base64_string):
     return cv2.imdecode(np_arr, cv2.IMREAD_COLOR)
 
 def encode_image_to_base64(image):
-    _, buffer = cv2.imencode(".jpg", image)
+    _, buffer = cv2.imencode(".png", image)
     return base64.b64encode(buffer).decode("utf-8")
 
 # NEW UTILITY: Function to download image from a URL
