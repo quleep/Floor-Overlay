@@ -22,8 +22,14 @@ def order_points(pts):
     top_right = np.array(top_right)
     top_left[1] = lowest_y_point[1]
     top_right[1] = lowest_y_point[1]
+    max_y_index = np.argmax(bottom_points[:, 1])
+    highest_y_point = bottom_points[max_y_index]
     bottom_left = min(bottom_points, key=lambda p: p[0])
     bottom_right = max(bottom_points, key=lambda p: p[0])
+    bottom_left = np.array(bottom_left)
+    bottom_right = np.array(bottom_right)
+    bottom_left[1] = highest_y_point[1]
+    bottom_right[1] = highest_y_point[1]
     rect[0], rect[1], rect[2], rect[3] = top_left, top_right, bottom_right, bottom_left
     return rect
 
